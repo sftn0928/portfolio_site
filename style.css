@@ -1,38 +1,43 @@
+/* 全体 */
 body {
   text-align: center;
 }
 
+/* top部分 */
 .top {
   height: 480px;
   background-image: url(images/top.jpg);
   background-size: cover;
 }
 
-  
-.title {
-  margin-top: 0;
+h1 {
   font-size: 50px;
   letter-spacing: 5px;
   padding-top: 160px;
 }
 
+/* about部分 */
 .about {
-  margin: 0;
-  background-color: rgb(240, 240, 233);
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 30px;
   padding-bottom: 30px;
+  /* padding: 30px 0 30px 0;でも可 */
 }
 
-.sub-title {
-  margin-top: 0;
-  padding-top: 40px;
+h2 {
   font-size: 40px;
 }
 
-hr{
-  margin-bottom: 50px;
+hr {
   width: 100px;
+  height: 5px;
+  border: none;
+  background-color: lightblue;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  /* margin: 20px 0 40px 0;でも可 */
 }
-
 
 .profile-img {
   width: 300px;
@@ -42,10 +47,12 @@ hr{
 table {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   text-align: left;
+  margin-top: 20px;
+  /* margin: 20px auto 0 auto;でも可 */
 }
 
 td {
   padding-top: 5px;
+  font-size: 20px;
 }
